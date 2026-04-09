@@ -1,32 +1,40 @@
-# Youth Space — Cursos
+# Recursos Complementares
 
-> Espaço de aprendizagem para desenvolvimento full stack e data science.
+> Materiais extras organizados por tema tecnológico.
 
-## Formato das Aulas
+## Temas Disponíveis
 
-- **Duração por aula:** 4 horas
-- **Frequência:** 1 aula por semana
-- **Certificação:** Youth Space
+### [[materials|Materiais — Youth Space]]
+Materiais didáticos do professor (slides, exercícios, projetos em PDF/PPTX/DOCX no Google Drive).
 
-## Cursos
+### [[dax/vendas-mais/info|Info]]
+Exercícios práticos de DAX usando dados fictícios de uma distribuidora brasileira.
 
-| Curso                                                           | Duração  | Aulas | Carga Horária |
-| --------------------------------------------------------------- | -------- | ----- | ------------- |
-| [Fullstack 12 Meses](cursos/fullstack-12-meses.md) (JavaScript) | 12 meses | 46    | 184h          |
-| [Fullstack Python](cursos/fullstack-python.md) (Python)         | 12 meses | 48    | 192h          |
-| [Data Science](cursos/data-science.md) (Python)                 | 12 meses | 40    | 160h          |
-
-**Total: 134 aulas / 536 horas**
-
-## Navegação Rápida
-
-### [Fullstack 12 Meses](cursos/fullstack-12-meses.md)
-
-### [Fullstack Python](cursos/fullstack-python.md)
-
-### [Data Science](cursos/data-science.md)
+**Contém:**
+- `info.md` — contexto da empresa VendaMais Distribuidora
+- `exercicios.md` — 16 colunas calculadas + 16 medidas (básico ao avançado)
+- `resolucoes.md` — resoluções dos exercícios
+- `script.md` — script Python que gera os CSVs de dados (bloco de código no Obsidian)
 
 ---
 
-## Tags
-#youth-space #cursos #fullstack #datascience
+## Como adicionar novos recursos
+
+1. Criar pasta dentro de `recursos/[tema]/[nome-do-material]/`
+2. Criar arquivo `info.md` como entrada da pasta
+3. Adicionar links no módulo relevante
+
+**Exemplo de estrutura:**
+```
+recursos/
+├── dax/
+│   └── vendas-mais/
+├── python/
+│   └── pandas-exercises/
+└── javascript/
+    └── async-exercises/
+```
+
+---
+
+#recursos #complementares
